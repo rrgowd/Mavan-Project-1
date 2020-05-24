@@ -1,0 +1,21 @@
+package Oops
+
+class Car {
+	
+	
+String name;
+String color;
+int model;
+
+def getCarDetails() {
+	
+	println "You are driving $model, $color colored $name"
+}
+
+	def startEngine() {
+		println "starting engine for $name"
+	}
+	
+	
+	
+}
